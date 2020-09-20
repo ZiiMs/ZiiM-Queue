@@ -1,0 +1,5 @@
+name: ZiimQueue
+version: 1.0
+main: me.ziim.ziimqueue.ZiimQueue
+description: A simple queue similar to 2b2t
+author: ZiiM

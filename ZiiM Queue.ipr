@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ZiiM Queue" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ZiiM Queue" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="net.md_5.bungee.event.EventHandler" />
+    </list>
+  </component>
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+    </profile>
+    <version value="1.0" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ZiiM Queue.iml" filepath="$PROJECT_DIR$/ZiiM Queue.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="true" project-jdk-name="Oracle Openjdk 14.0.2" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="sonatype" />
+      <option name="name" value="sonatype" />
+      <option name="url" value="https://oss.sonatype.org/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="bungeecord-repo" />
+      <option name="name" value="bungeecord-repo" />
+      <option name="url" value="https://oss.sonatype.org/content/repositories/snapshots" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="sonatype" />
+      <option name="name" value="sonatype" />
+      <option name="url" value="https://oss.sonatype.org/content/repositories/snapshots" />
+    </remote-repository>
+  </component>
+  <component name="libraryTable">
+    <library name="Maven: com.google.code.gson:gson:2.8.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.0/gson-2.8.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.0/gson-2.8.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.google.guava:guava:21.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/21.0/guava-21.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/21.0/guava-21.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/21.0/guava-21.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-buffer:4.1.49.Final">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-buffer/4.1.49.Final/netty-buffer-4.1.49.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-buffer/4.1.49.Final/netty-buffer-4.1.49.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-buffer/4.1.49.Final/netty-buffer-4.1.49.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-codec:4.1.49.Final">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec/4.1.49.Final/netty-codec-4.1.49.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec/4.1.49.Final/netty-codec-4.1.49.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec/4.1.49.Final/netty-codec-4.1.49.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-common:4.1.49.Final">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.49.Final/netty-common-4.1.49.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.49.Final/netty-common-4.1.49.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.49.Final/netty-common-4.1.49.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-resolver:4.1.49.Final">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver/4.1.49.Final/netty-resolver-4.1.49.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver/4.1.49.Final/netty-resolver-4.1.49.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver/4.1.49.Final/netty-resolver-4.1.49.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-transport-native-unix-common:4.1.49.Final">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-unix-common/4.1.49.Final/netty-transport-native-unix-common-4.1.49.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-unix-common/4.1.49.Final/netty-transport-native-unix-common-4.1.49.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-unix-common/4.1.49.Final/netty-transport-native-unix-common-4.1.49.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-transport:4.1.49.Final">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.49.Final/netty-transport-4.1.49.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.49.Final/netty-transport-4.1.49.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.49.Final/netty-transport-4.1.49.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: net.md-5:brigadier:1.0.16-SNAPSHOT">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/net/md-5/brigadier/1.0.16-SNAPSHOT/brigadier-1.0.16-20181219.233212-1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/net/md-5/brigadier/1.0.16-SNAPSHOT/brigadier-1.0.16-20181219.233212-1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/net/md-5/brigadier/1.0.16-SNAPSHOT/brigadier-1.0.16-20181219.233212-1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: net.md-5:bungeecord-api:1.16-R0.4-SNAPSHOT">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/net/md-5/bungeecord-api/1.16-R0.4-SNAPSHOT/bungeecord-api-1.16-R0.4-20200916.095601-9.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/net/md-5/bungeecord-api/1.16-R0.4-SNAPSHOT/bungeecord-api-1.16-R0.4-20200916.095601-9-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/net/md-5/bungeecord-api/1.16-R0.4-SNAPSHOT/bungeecord-api-1.16-R0.4-20200916.095601-9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: net.md-5:bungeecord-chat:1.16-R0.4-SNAPSHOT">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/net/md-5/bungeecord-chat/1.16-R0.4-SNAPSHOT/bungeecord-chat-1.16-R0.4-20200916.095427-9.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/net/md-5/bungeecord-chat/1.16-R0.4-SNAPSHOT/bungeecord-chat-1.16-R0.4-20200916.095427-9-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/net/md-5/bungeecord-chat/1.16-R0.4-SNAPSHOT/bungeecord-chat-1.16-R0.4-20200916.095427-9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: net.md-5:bungeecord-config:1.16-R0.4-SNAPSHOT">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/net/md-5/bungeecord-config/1.16-R0.4-SNAPSHOT/bungeecord-config-1.16-R0.4-20200916.095446-9.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/net/md-5/bungeecord-config/1.16-R0.4-SNAPSHOT/bungeecord-config-1.16-R0.4-20200916.095446-9-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/net/md-5/bungeecord-config/1.16-R0.4-SNAPSHOT/bungeecord-config-1.16-R0.4-20200916.095446-9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: net.md-5:bungeecord-event:1.16-R0.4-SNAPSHOT">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/net/md-5/bungeecord-event/1.16-R0.4-SNAPSHOT/bungeecord-event-1.16-R0.4-20200916.095500-9.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/net/md-5/bungeecord-event/1.16-R0.4-SNAPSHOT/bungeecord-event-1.16-R0.4-20200916.095500-9-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/net/md-5/bungeecord-event/1.16-R0.4-SNAPSHOT/bungeecord-event-1.16-R0.4-20200916.095500-9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: net.md-5:bungeecord-protocol:1.16-R0.4-SNAPSHOT">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/net/md-5/bungeecord-protocol/1.16-R0.4-SNAPSHOT/bungeecord-protocol-1.16-R0.4-20200916.095522-9.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/net/md-5/bungeecord-protocol/1.16-R0.4-SNAPSHOT/bungeecord-protocol-1.16-R0.4-20200916.095522-9-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/net/md-5/bungeecord-protocol/1.16-R0.4-SNAPSHOT/bungeecord-protocol-1.16-R0.4-20200916.095522-9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: net.sf.trove4j:core:3.1.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/net/sf/trove4j/core/3.1.0/core-3.1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/net/sf/trove4j/core/3.1.0/core-3.1.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/net/sf/trove4j/core/3.1.0/core-3.1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.yaml:snakeyaml:1.25">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.25/snakeyaml-1.25.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.25/snakeyaml-1.25-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.25/snakeyaml-1.25-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: se.llbit:jo-nbt:1.3.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/se/llbit/jo-nbt/1.3.0/jo-nbt-1.3.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/se/llbit/jo-nbt/1.3.0/jo-nbt-1.3.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/se/llbit/jo-nbt/1.3.0/jo-nbt-1.3.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+  </component>
+</project>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f03b9ec8-e051-4134-a4ea-2cdb21b934dc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\Fan Zyko\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\202.7319.50\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hekCM32odgSIRdw2dxhAjtftFj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunManager" selected="Maven.ZiiM Queue build">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DEBUGGER" type="JarApplication">
+      <option name="JAR_PATH" value="S:/Servers/Minecraft/BungeecordDev/BungeeCord.jar" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Fan Zyko\IdeaProjects\ZiiM Queue" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean package" />
+      </method>
+    </configuration>
+    <configuration name="ZiiM Queue build" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JAR Application.DEBUGGER" />
+      <item itemvalue="Maven.ZiiM Queue build" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f03b9ec8-e051-4134-a4ea-2cdb21b934dc" name="Default Changelist" comment="" />
+      <created>1600378816529</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600378816529</updated>
+      <workItem from="1600378817588" duration="209000" />
+      <workItem from="1600402015933" duration="646000" />
+      <workItem from="1600402682074" duration="129000" />
+      <workItem from="1600402876433" duration="4444000" />
+      <workItem from="1600417268969" duration="4914000" />
+      <workItem from="1600422804086" duration="2397000" />
+      <workItem from="1600427464535" duration="5612000" />
+      <workItem from="1600433739739" duration="111000" />
+      <workItem from="1600433900181" duration="732000" />
+      <workItem from="1600451330820" duration="2125000" />
+      <workItem from="1600556490987" duration="1237000" />
+      <workItem from="1600557768567" duration="104000" />
+      <workItem from="1600557882289" duration="1277000" />
+      <workItem from="1600559188605" duration="3271000" />
+      <workItem from="1600574854867" duration="3544000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="178" width="1110" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600402929719">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="178" width="1110" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600402929719" />
+    <state x="765" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1600431594003">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="765" y="227" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600431594003" />
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1600559160912">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600559160912" />
+    <state width="1876" height="180" key="GridCell.Tab.0.bottom" timestamp="1600578756568">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="180" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600578756568" />
+    <state width="1876" height="180" key="GridCell.Tab.0.center" timestamp="1600578756568">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="180" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600578756568" />
+    <state width="1876" height="180" key="GridCell.Tab.0.left" timestamp="1600578756568">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="180" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600578756568" />
+    <state width="1876" height="180" key="GridCell.Tab.0.right" timestamp="1600578756568">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="180" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600578756568" />
+    <state width="1876" height="335" key="GridCell.Tab.1.bottom" timestamp="1600433651032">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="335" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600433651032" />
+    <state width="1876" height="335" key="GridCell.Tab.1.center" timestamp="1600433651032">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="335" key="GridCell.Tab.1.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600433651032" />
+    <state width="1876" height="335" key="GridCell.Tab.1.left" timestamp="1600433651032">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="335" key="GridCell.Tab.1.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600433651032" />
+    <state width="1876" height="335" key="GridCell.Tab.1.right" timestamp="1600433651032">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="335" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600433651032" />
+    <state x="490" y="178" key="Maven.ArtifactSearchDialog" timestamp="1600378870496">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="490" y="178" key="Maven.ArtifactSearchDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600378870496" />
+    <state x="690" y="219" key="extract.method.dialog" timestamp="1600424723064">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="219" key="extract.method.dialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600424723064" />
+    <state x="668" y="242" width="583" height="566" key="find.popup" timestamp="1600561306577">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="668" y="242" width="583" height="566" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600561306577" />
+    <state x="540" y="98" key="new project wizard" timestamp="1600402661942">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="540" y="98" key="new project wizard/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600402661942" />
+  </component>
+</project>

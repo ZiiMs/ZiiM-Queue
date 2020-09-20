@@ -1,0 +1,113 @@
+00:22:19 [INFO] Using standard Java JCE cipher.
+00:22:19 [INFO] Using standard Java compressor.
+00:22:19 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.16-R0.4-SNAPSHOT:c987ee1:1536
+00:22:19 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+00:22:19 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+00:22:19 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+00:22:19 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+00:22:19 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+00:22:19 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+00:22:19 [INFO] Attempting to update plugin from null to ModuleVersion(build=1536, git=c987ee1)
+
+00:22:19 [INFO] Attempting to Jenkins download module cmd_alert v1536
+
+00:22:20 [INFO] Download complete
+
+00:22:20 [INFO] Attempting to update plugin from null to ModuleVersion(build=1536, git=c987ee1)
+
+00:22:20 [INFO] Attempting to Jenkins download module cmd_find v1536
+
+00:22:20 [INFO] Download complete
+
+00:22:20 [INFO] Attempting to update plugin from null to ModuleVersion(build=1536, git=c987ee1)
+
+00:22:20 [INFO] Attempting to Jenkins download module cmd_list v1536
+
+00:22:20 [INFO] Download complete
+
+00:22:20 [INFO] Attempting to update plugin from null to ModuleVersion(build=1536, git=c987ee1)
+
+00:22:20 [INFO] Attempting to Jenkins download module cmd_send v1536
+
+00:22:20 [INFO] Download complete
+
+00:22:20 [INFO] Attempting to update plugin from null to ModuleVersion(build=1536, git=c987ee1)
+
+00:22:20 [INFO] Attempting to Jenkins download module cmd_server v1536
+
+00:22:20 [INFO] Download complete
+
+00:22:20 [INFO] Attempting to update plugin from null to ModuleVersion(build=1536, git=c987ee1)
+
+00:22:20 [INFO] Attempting to Jenkins download module reconnect_yaml v1536
+
+00:22:20 [INFO] Download complete
+
+00:22:20 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.16-R0.4-SNAPSHOT:c987ee1:1536 by SpigotMC
+00:22:20 [INFO] Loaded plugin cmd_find version git:cmd_find:1.16-R0.4-SNAPSHOT:c987ee1:1536 by SpigotMC
+00:22:20 [INFO] Loaded plugin cmd_server version git:cmd_server:1.16-R0.4-SNAPSHOT:c987ee1:1536 by SpigotMC
+00:22:20 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.16-R0.4-SNAPSHOT:c987ee1:1536 by SpigotMC
+00:22:20 [INFO] Loaded plugin cmd_send version git:cmd_send:1.16-R0.4-SNAPSHOT:c987ee1:1536 by SpigotMC
+00:22:20 [INFO] Loaded plugin cmd_list version git:cmd_list:1.16-R0.4-SNAPSHOT:c987ee1:1536 by SpigotMC
+00:22:20 [WARNING] Forced host server pvp is not defined
+00:22:20 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.16-R0.4-SNAPSHOT:c987ee1:1536 by SpigotMC
+00:22:20 [INFO] Enabled plugin cmd_find version git:cmd_find:1.16-R0.4-SNAPSHOT:c987ee1:1536 by SpigotMC
+00:22:20 [INFO] Enabled plugin cmd_server version git:cmd_server:1.16-R0.4-SNAPSHOT:c987ee1:1536 by SpigotMC
+00:22:20 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.16-R0.4-SNAPSHOT:c987ee1:1536 by SpigotMC
+00:22:20 [INFO] Enabled plugin cmd_send version git:cmd_send:1.16-R0.4-SNAPSHOT:c987ee1:1536 by SpigotMC
+00:22:20 [INFO] Enabled plugin cmd_list version git:cmd_list:1.16-R0.4-SNAPSHOT:c987ee1:1536 by SpigotMC
+00:22:20 [WARNING] Could not bind to host /0.0.0.0:25577
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:479)
+	at java.base/sun.nio.ch.Net.bind(Net.java:468)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:220)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:134)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:550)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:248)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+00:22:39 [INFO] Using standard Java JCE cipher.
+00:22:39 [INFO] Using standard Java compressor.
+00:22:39 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.16-R0.4-SNAPSHOT:c987ee1:1536
+00:22:39 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+00:22:39 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+00:22:39 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+00:22:39 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+00:22:39 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+00:22:39 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+00:22:39 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.16-R0.4-SNAPSHOT:c987ee1:1536 by SpigotMC
+00:22:39 [INFO] Loaded plugin cmd_find version git:cmd_find:1.16-R0.4-SNAPSHOT:c987ee1:1536 by SpigotMC
+00:22:39 [INFO] Loaded plugin cmd_server version git:cmd_server:1.16-R0.4-SNAPSHOT:c987ee1:1536 by SpigotMC
+00:22:39 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.16-R0.4-SNAPSHOT:c987ee1:1536 by SpigotMC
+00:22:39 [INFO] Loaded plugin cmd_send version git:cmd_send:1.16-R0.4-SNAPSHOT:c987ee1:1536 by SpigotMC
+00:22:39 [INFO] Loaded plugin cmd_list version git:cmd_list:1.16-R0.4-SNAPSHOT:c987ee1:1536 by SpigotMC
+00:22:39 [WARNING] Forced host server pvp is not defined
+00:22:39 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.16-R0.4-SNAPSHOT:c987ee1:1536 by SpigotMC
+00:22:39 [INFO] Enabled plugin cmd_find version git:cmd_find:1.16-R0.4-SNAPSHOT:c987ee1:1536 by SpigotMC
+00:22:39 [INFO] Enabled plugin cmd_server version git:cmd_server:1.16-R0.4-SNAPSHOT:c987ee1:1536 by SpigotMC
+00:22:39 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.16-R0.4-SNAPSHOT:c987ee1:1536 by SpigotMC
+00:22:39 [INFO] Enabled plugin cmd_send version git:cmd_send:1.16-R0.4-SNAPSHOT:c987ee1:1536 by SpigotMC
+00:22:39 [INFO] Enabled plugin cmd_list version git:cmd_list:1.16-R0.4-SNAPSHOT:c987ee1:1536 by SpigotMC
+00:22:39 [INFO] Listening on /0.0.0.0:25577
