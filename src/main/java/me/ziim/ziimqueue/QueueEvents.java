@@ -101,7 +101,6 @@ public class QueueEvents implements Listener {
     public void onServerKick(ServerKickEvent e) {
         ProxiedPlayer player = e.getPlayer();
         ServerInfo queServer = ProxyServer.getInstance().getServerInfo(queueServer);
-        ProxyServer.getInstance().getLogger().info(e.getCancelServer().getName());
         if (e.getCancelServer() == queServer) {
             queue.add(player);
             showQueue(player);
