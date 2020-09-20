@@ -3,8 +3,6 @@ package me.ziim.ziimqueue;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.ChatMessageType;
 import net.md_5.bungee.api.ProxyServer;
-import net.md_5.bungee.api.ServerConnectRequest;
-import net.md_5.bungee.api.chat.BaseComponent;
 import net.md_5.bungee.api.chat.TextComponent;
 import net.md_5.bungee.api.config.ServerInfo;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
@@ -46,11 +44,6 @@ public class QueueEvents implements Listener {
         }
     }
 
-    @EventHandler
-    public void onPostLogin(PostLoginEvent event) {
-
-    }
-
     public void reconnect() {
         task = ProxyServer.getInstance().getScheduler().schedule(plugin, () -> {
             ServerInfo main = ProxyServer.getInstance().getServerInfo(mainServer);
@@ -83,7 +76,6 @@ public class QueueEvents implements Listener {
     @EventHandler
     public void onServerConnectEvent(ServerConnectEvent e) {
         ServerInfo queServer = ProxyServer.getInstance().getServerInfo(queueServer);
-        ProxyServer.getInstance().getLogger().info(ChatColor.YELLOW + e.getReason().toString());
         if (e.getTarget() == queServer) {
             ServerInfo main = ProxyServer.getInstance().getServerInfo(mainServer);
             ProxiedPlayer player = e.getPlayer();
@@ -108,8 +100,9 @@ public class QueueEvents implements Listener {
     @EventHandler
     public void onServerKick(ServerKickEvent e) {
         ProxiedPlayer player = e.getPlayer();
-        ProxyServer.getInstance().getLogger().info(ChatColor.YELLOW + BaseComponent.toPlainText(e.getKickReasonComponent()));
-        if (BaseComponent.toPlainText(e.getKickReasonComponent()).contains("full")) {
+        ServerInfo queServer = ProxyServer.getInstance().getServerInfo(queueServer);
+        ProxyServer.getInstance().getLogger().info(e.getCancelServer().getName());
+        if (e.getCancelServer() == queServer) {
             queue.add(player);
             showQueue(player);
         }
@@ -137,7 +130,7 @@ public class QueueEvents implements Listener {
         ServerInfo main = ProxyServer.getInstance().getServerInfo(mainServer);
         ServerInfo server = e.getTarget();
         if (!queue.isEmpty()) {
-            if (server.getName().equals("main")) {
+            if (server.getName().equals(mainServer)) {
                 try {
                     main.ping((result, error) -> {
                         if (error == null) {
